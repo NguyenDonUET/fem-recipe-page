@@ -123,7 +123,7 @@
       line-height: 1.6;
       padding-inline-start: 14px;
       margin-block: 6px;
-      @media (width >= 68.75rem) {
+      @media (min-width: 68.75rem) {
         padding-inline-start: 20px;
       }
     }
@@ -150,7 +150,7 @@
     color: var(--color-headline-dark);
     font-weight: 400;
 
-    @media (width >= 68.75rem) {
+    @media (min-width: 68.75rem) {
       font-size: 2.75rem;
       margin-block-end: 24px;
     }
@@ -159,7 +159,7 @@
     line-height: 1.3;
     color: var(--color-text);
 
-    @media (width >= 68.75rem) {
+    @media (min-width: 68.75rem) {
       font-size: 1.15rem;
     }
   }
@@ -167,7 +167,7 @@
     margin-inline: auto;
     background-color: var(--color-background-recipe);
 
-    @media (width >= 68.75rem) {
+    @media (min-width: 68.75rem) {
       margin-block: 6rem;
       max-width: 52rem;
       border-radius: 0.75rem;
@@ -175,14 +175,14 @@
     }
   }
   .recipe__image {
-    @media (width >= 68.75rem) {
+    @media (min-width: 68.75rem) {
       border-radius: 0.75rem;
       margin-block-end: 2rem;
     }
   }
   .recipe__content {
     padding: 1.875rem 1.5rem;
-    @media (width >= 68.75rem) {
+    @media (min-width: 68.75rem) {
       padding: initial;
     }
     .prep {
