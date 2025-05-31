@@ -213,7 +213,7 @@
     border-bottom: 0.125rem solid var(--color-border);
   }
   .nutrition {
-    p {
+    .nutrition-note {
       margin-block-end: 0.75rem;
     }
     table {
@@ -229,18 +229,16 @@
         th[scope="row"] {
           color: var(--color-text);
           font-weight: 600;
+          width: 50%;
         }
         td {
+          width: 50%;
           color: var(--c-brown-800);
           font-weight: 700;
         }
       }
       tr:not(:last-child) {
         border-bottom: 0.0625rem solid var(--color-border);
-      }
-      th,
-      td {
-        width: 50%;
       }
     }
   }
